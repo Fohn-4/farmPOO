@@ -21,3 +21,7 @@ class Tree(Plant):
             wood = 50
         return wood
 
+    def update(self):
+        super().update()
+        self.wood = self.set_wood_amount()
+

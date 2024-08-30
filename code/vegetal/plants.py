@@ -12,5 +12,6 @@ class Plant(ABC):
         if G_turn % self.growthSpeed == 0:
             self.growthState += 1
 
+
     def update(self):
         self.growth()
