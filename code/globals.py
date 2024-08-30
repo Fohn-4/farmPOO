@@ -1,1 +1,1 @@
-G_turn = 0
+G_turn = 12

@@ -1,5 +1,5 @@
 import random
-from ..globals import G_turn
+from globals import G_turn
 
 class Animal:
     def __init__(self):
